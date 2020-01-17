@@ -5,7 +5,7 @@ body {
 }
 
 .footer_section {
-    height: 200px;
+    height: 400px;
     /* background-color: rgb(4, 36, 46); */
     background-image: linear-gradient(to right, rgb(26, 102, 165) , rgb(5, 4, 46));
 }
