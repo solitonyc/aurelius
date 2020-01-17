@@ -9,7 +9,7 @@ export default class Page5 extends Component {
         }
         return (
             <div>
-                <div className="main_page_section" id="main">
+                <div className="main_page_section" id="page5">
                 <div style={style} className='main_section_background'>
                     <div className="main_content_container">  
                         <div className="main_headline">Section 5 Headline</div>

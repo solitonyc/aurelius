@@ -1,11 +1,79 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {Link, animateScroll as scroll } from "react-scroll";
+import './navigation.css';
 
 export default class Navigation extends Component {
+    state = {};
+    scrollToTop = () => {
+        scroll.scrollToTop(); 
+    };
     render() {
         return (
-            <div>
+            <div className="nav-bar">
+                {/* <img src={logo} 
+                    alt="Logo" 
+                    className='nav_logo'
+                    onClick={this.scrollToTop}
+                    /> */}
+                <Link
+                    className="nav-links"
+                    activeClass="active"
+                    to="main"
+                    spy={true}
+                    smooth={true}
+                    offset={-40}
+                    duration={500}
+                    >Main</Link>
                 
-            </div>
+                <Link
+                    className="nav-links"
+                    activeClass="active"
+                    to="page2"
+                    spy={true}
+                    smooth={true}
+                    offset={-38}
+                    duration={500}
+                    >Page2</Link>
+                
+                <Link
+                    className="nav-links"
+                    activeClass="active"
+                    to="page3"
+                    spy={true}
+                    smooth={true}
+                    offset={-38}
+                    duration={500}
+                    >Page3</Link>
+                
+                <Link
+                    className="nav-links"
+                    activeClass="active"
+                    to="page4"
+                    spy={true}
+                    smooth={true}
+                    offset={-38}
+                    duration={500}
+                    >Page4</Link>
+
+                <Link
+                    className="nav-links"
+                    activeClass="active"
+                    to="page5"
+                    spy={true}
+                    smooth={true}
+                    offset={-38}
+                    duration={500}
+                    >Page5</Link>
+
+
+            
+
+
+                
+             </div>   
+                
+                
+               
         )
     }
 }
