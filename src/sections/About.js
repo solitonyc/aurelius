@@ -12,7 +12,7 @@ export default class Page3 extends Component {
                 <div className="main_page_section" id="about">
                 <div style={style} className='main_section_background'>
                     <div className="main_content_container">  
-                        <div className="main_headline">Section 3 Headline</div>
+                        <div className="main_headline">About Aurelius</div>
                         <div className="main_paragraph_01">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
