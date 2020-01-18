@@ -3,7 +3,7 @@ import Navigation from './nav-bar/Navigation';
 import Main from './sections/Main';
 import Services from './sections/Services';
 import About from './sections/About';
-import Page4 from './sections/Page4';
+import Management from './sections/Management';
 import Page5 from './sections/Page5';
 import Footer from './sections/Footer';
 
@@ -15,7 +15,7 @@ class App extends Component {
         <Main />
         <Services />
         <About />
-        <Page4 />
+        <Management />
         <Page5 />
         <Footer />
       </div>
