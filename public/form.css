@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-color:rgb(40, 30, 39); 
+    background-color:rgb(255, 255, 255); 
     height: 100vh;
     
 }
@@ -42,7 +42,7 @@ a {
 }
 
 .form_container {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .6);
     padding: 20px;
     max-width:450px; 
     margin:50px auto; 
