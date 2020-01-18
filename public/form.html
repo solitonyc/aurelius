@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Send Me a Message</title>
+    <link rel="stylesheet" type="text/css" href="/form.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    
+    <div class="form_container">  
+      <div class='page_title'>Questions or Hiring Inquiries?</div>
+      <div class='contact_form_instructions'>Send me a message by filling and <br />sending the form below.</div>
+      
+        <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">      
+          <label>NAME:</label>
+          <input name="name" type="text" class="input_form" placeholder="Enter your name here" /> 
+          
+          <label>EMAIL:</label>
+          <input name="email" type="text" class="input_form" placeholder="Enter your email here" />
+
+          <label>PHONE:</Label>
+          <input name="phone" type="text" class="input_form" placeholder="Enter your phone here" />
+
+          <label>MESSAGE:</label>
+          <textarea name="text" class="input_form" placeholder="Enter your question or hiring inquiry here"></textarea>
+          <div data-netlify-recaptcha="true" class="captcha"></div>
+          <input type="submit" value="SEND MESSAGE"/>
+          <div class='back'><a href="http://solito.net">BACK</a></div>
+        </form>
+      </div>
+      
+  </body>
+</html>
