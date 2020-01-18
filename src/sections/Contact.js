@@ -9,7 +9,7 @@ export default class Page5 extends Component {
         }
         return (
             <div>
-                <div className="contact_page_section" id="contact">
+                <div className="contact_section" id="contact">
                 <div style={style} className='contact_section_background'>
                     <div className="contact_content_container">  
                         <div className="contact_headline">Contact Us</div>
@@ -21,7 +21,16 @@ export default class Page5 extends Component {
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </div>
-                        <div className='contact_button_space'><button>Contact Me</button></div>
+                        <div className='contact_address'>
+                            100 Wall Street<br />
+                            New York, NY 10001
+                        </div>
+                        <div className='contact_phone'>
+                            (646) 666-6666
+                        </div>
+                        <div>
+                            <button className='contact_button'><a href="/form.html">Contact Us</a></button>
+                        </div>
             
                     </div>   
                 </div>             
