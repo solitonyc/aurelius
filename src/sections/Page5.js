@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles.css';
+import './page5.css';
 import mainBgImage from './images-sections/bg-img5.jpg';
 
 export default class Page5 extends Component {
@@ -21,6 +21,7 @@ export default class Page5 extends Component {
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </div>
+                        <div className='contact_button_space'><button>Contact Me</button></div>
             
                     </div>   
                 </div>             
