@@ -9,11 +9,11 @@ export default class Page5 extends Component {
         }
         return (
             <div>
-                <div className="main_page_section" id="contact">
-                <div style={style} className='main_section_background'>
-                    <div className="main_content_container">  
-                        <div className="main_headline">Contact Us</div>
-                        <div className="main_paragraph_01">
+                <div className="contact_page_section" id="contact">
+                <div style={style} className='contact_section_background'>
+                    <div className="contact_content_container">  
+                        <div className="contact_headline">Contact Us</div>
+                        <div className="contact_paragraph_01">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
