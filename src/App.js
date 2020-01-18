@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Navigation from './nav-bar/Navigation';
 import Main from './sections/Main';
 import Services from './sections/Services';
-import Page3 from './sections/Page3';
+import About from './sections/About';
 import Page4 from './sections/Page4';
 import Page5 from './sections/Page5';
 import Footer from './sections/Footer';
@@ -14,7 +14,7 @@ class App extends Component {
         <Navigation />
         <Main />
         <Services />
-        <Page3 />
+        <About />
         <Page4 />
         <Page5 />
         <Footer />
