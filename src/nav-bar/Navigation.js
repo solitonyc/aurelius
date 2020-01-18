@@ -58,12 +58,12 @@ export default class Navigation extends Component {
                 <Link
                     className="nav-links"
                     activeClass="active"
-                    to="page5"
+                    to="contact"
                     spy={true}
                     smooth={true}
                     offset={-38}
                     duration={500}
-                    >Page5</Link>
+                    >Contact</Link>
 
 
             

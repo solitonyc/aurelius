@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './page5.css';
+import './contact.css';
 import mainBgImage from './images-sections/bg-img5.jpg';
 
 export default class Page5 extends Component {
@@ -9,10 +9,10 @@ export default class Page5 extends Component {
         }
         return (
             <div>
-                <div className="main_page_section" id="page5">
+                <div className="main_page_section" id="contact">
                 <div style={style} className='main_section_background'>
                     <div className="main_content_container">  
-                        <div className="main_headline">Section 5 Headline</div>
+                        <div className="main_headline">Contact Us</div>
                         <div className="main_paragraph_01">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 

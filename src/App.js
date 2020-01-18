@@ -4,7 +4,7 @@ import Main from './sections/Main';
 import Services from './sections/Services';
 import About from './sections/About';
 import Management from './sections/Management';
-import Page5 from './sections/Page5';
+import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
         <Services />
         <About />
         <Management />
-        <Page5 />
+        <Contact />
         <Footer />
       </div>
     );
