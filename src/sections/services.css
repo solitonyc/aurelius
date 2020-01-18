@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.main_page_section {
+.services_page_section {
     display: flex;
     align-content: center;
     flex-direction: row;
@@ -18,7 +18,7 @@ body {
     width: 100%;
 }
 
-.main_section_background {
+.services_section_background {
     height: 100%;
     width: 100%;
     background-position: center;
@@ -27,7 +27,7 @@ body {
     position: relative;
 }
 
-.main_content_container {
+.services_content_container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -44,13 +44,13 @@ body {
     margin: 10% auto;
 }
 
-.main_headline {
+.services_headline {
     font-family: 'Abril Fatface', cursive;
     font-size: 96px;
     color: white;
 }
 
-.main_paragraph_01 {
+.services_paragraph_01 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: white;
@@ -62,13 +62,13 @@ body {
 
 /* -------------------- LARGE TABLET ------------- */
 @media screen and (max-width: 1200px) and (min-width: 992px) {
-    .main_headline {
+    .services_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 80px;
         color: white;
     }
     
-    .main_paragraph_01 {
+    .services_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         color: white;
@@ -77,13 +77,13 @@ body {
 }
 /* -------------------- SMALL TABLET ------------- */
 @media screen and (max-width: 991px) and (min-width: 768px){    
-    .main_headline {
+    .services_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 64px;
         color: white;
     }
     
-    .main_paragraph_01 {
+    .services_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         color: white;
@@ -92,13 +92,13 @@ body {
 }
 /* -------------------- LARGE PHONE ------------- */
 @media screen and (max-width: 767px) and (min-width: 576px){
-    .main_headline {
+    .services_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 48px;
         color: white;
     }
     
-    .main_paragraph_01 {
+    .services_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
         color: white;
@@ -107,13 +107,13 @@ body {
 }
 /* -------------------- SMALL PHONE ------------- */
 @media screen and (max-width: 575px) and (min-width: 319px){  
-    .main_headline {
+    .services_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 36px;
         color: white;
     }
     
-    .main_paragraph_01 {
+    .services_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         color: white;
