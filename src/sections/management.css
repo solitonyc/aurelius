@@ -45,13 +45,13 @@ body {
 .mgmt_headline {
     font-family: 'Abril Fatface', cursive;
     font-size: 96px;
-    color: rgb(5, 18, 44);
+    color: rgb(21, 57, 87);
 }
 
-.mmgmt_paragraph_01 {
+.mgmt_paragraph_01 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: rgb(5, 18, 44);
+    color: rgb(21, 57, 87);
     margin: 24px;
 }
 
