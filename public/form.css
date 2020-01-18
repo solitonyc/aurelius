@@ -42,7 +42,7 @@ a {
 }
 
 .form_container {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .8);
     padding: 20px;
     max-width:450px; 
     margin:50px auto; 
@@ -65,9 +65,9 @@ label {
     font-family: 'Montserrat', sans-serif;
     font-weight:500;
     font-size: 18px;
-    border-radius: 8px;
+    border-radius: 4px;
     line-height: 22px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     border:1px solid white;
     transition: all 0.3s;
     padding: 13px;
@@ -79,7 +79,7 @@ label {
 }
 
 ::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(59, 59, 59, 0.5);
     font-size: 16px;
     font-style: italic;
 }
