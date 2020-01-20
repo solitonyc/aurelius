@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link, animateScroll as scroll } from "react-scroll";
-import logo from './images/aurelius-logo.png';
+import logo from './images-nav-bar/aureliusllc-logo.png';
 import './navigation.css';
 
 export default class Navigation extends Component {
