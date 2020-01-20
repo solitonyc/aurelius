@@ -49,7 +49,7 @@ body {
     width: 100%;
     max-width: 1000px;
     border-radius: 8px;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .6);
     margin: 10% auto;
 }
 
@@ -59,11 +59,19 @@ body {
     color: white;
 }
 
+.main_tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    color: peru;
+    margin: 0px 0px;
+}
+
 .main_paragraph_01 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: white;
-    margin: 24px;
+    margin: 12px 24px;
+    padding: 8px 36px;
 }
 
 
