@@ -12,7 +12,7 @@ body {
     align-self: center;
     align-content: stretch;
     background-color: white;
-    height: 1200px;
+    height: 100%;
     width: 100%;
 }
 
@@ -53,6 +53,38 @@ body {
     font-size: 18px;
     color: rgb(21, 57, 87);
     margin: 24px;
+}
+
+.services_columns_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 24px 24px 120px;
+    max-width: 1200px;
+}
+
+.services_column_box {
+    width: 376px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 9px;
+	padding-bottom: 12px;
+	margin: 24px;	
+}
+
+.services_box_image {
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.services_column_box_title {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    color: peru;
+    padding: 24px 24px 12px;
 }
 
 
