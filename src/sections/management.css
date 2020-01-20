@@ -12,7 +12,7 @@ body {
     align-self: center;
     align-content: stretch;
     background-color: white;
-    height: 1200px;
+    height: 100%;
     width: 100%;
 }
 
@@ -55,7 +55,45 @@ body {
     margin: 24px;
 }
 
+/* -------------------- BOX STYLES ---------------------*/
+.mgmt_columns_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 24px 24px 120px;
+    max-width: 4000px;
+}
 
+.mgmt_column_box {
+    width: 376px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 9px;
+	padding-bottom: 12px;
+	margin: 24px;	
+}
+
+.mgmt_box_image {
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.mgmt_column_box_title {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    color: peru;
+    padding: 24px 24px 12px;
+}
+
+.mgmt_paragraph_box {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: rgb(21, 57, 87);
+    margin: 24px;
+}
 
 
 /* -------------------- LARGE TABLET ------------- */
