@@ -26,7 +26,6 @@ export default class Page2 extends Component {
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </div>
                     <div className="services_columns_container">
-                       
                         <div className='services_column_box'>
                             <img className='services_box_image' alt='' src={philBoxImg01} />
                             <div className="services_column_box_title">Service One</div>                            

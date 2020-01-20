@@ -55,6 +55,7 @@ body {
     margin: 24px;
 }
 
+/* -------------------- BOX STYLES ---------------------*/
 .services_columns_container {
     display: flex;
     flex-direction: row;
@@ -63,7 +64,7 @@ body {
     align-items: flex-start;
     align-content: flex-start;
     margin: 24px 24px 120px;
-    max-width: 1200px;
+    max-width: 4000px;
 }
 
 .services_column_box {
@@ -87,7 +88,12 @@ body {
     padding: 24px 24px 12px;
 }
 
-
+.services_paragraph_box {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: rgb(21, 57, 87);
+    margin: 24px;
+}
 
 
 /* -------------------- LARGE TABLET ------------- */
