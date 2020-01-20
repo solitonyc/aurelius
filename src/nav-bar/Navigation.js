@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link, animateScroll as scroll } from "react-scroll";
+import logo from './images/aurelius-logo.png';
 import './navigation.css';
 
 export default class Navigation extends Component {
@@ -10,11 +11,11 @@ export default class Navigation extends Component {
     render() {
         return (
             <div className="nav-bar">
-                {/* <img src={logo} 
+                <img src={logo} 
                     alt="Logo" 
                     className='nav_logo'
                     onClick={this.scrollToTop}
-                    /> */}
+                    />
                 <Link
                     className="nav-links"
                     activeClass="active"
