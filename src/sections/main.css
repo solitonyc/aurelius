@@ -23,7 +23,7 @@ body {
     margin-top: 40px;
     background-color: black;
     color: white;
-    height: 1200px;
+    height: 100%px;
     width: 100%;
 }
 
@@ -124,16 +124,27 @@ body {
 }
 /* -------------------- SMALL PHONE ------------- */
 @media screen and (max-width: 575px) and (min-width: 319px){  
-    .main_headline {
-        font-family: 'Abril Fatface', cursive;
-        font-size: 36px;
-        color: white;
+    .main_content_container {
+        
+        margin: 0px;
+        background-color: rgba(0, 0, 0, .5);
     }
-    
+    .main_section_background {
+        height: 600px;
+        width: 100%;
+    }
+    .main_headline {
+        font-size: 36px;
+        line-height: 1;
+        padding: 64px 24px 12px;
+    }
+    .main_tagline {
+        font-size: 18px; 
+        line-height: 1;      
+        padding: 12px 24px 6px;
+    }
     .main_paragraph_01 {
-        font-family: 'Montserrat', sans-serif;
         font-size: 14px;
-        color: white;
-        margin: 24px;
+        padding: 12px;
     }   
 }
