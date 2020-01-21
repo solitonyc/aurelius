@@ -117,13 +117,13 @@ body {
     .mgmt_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 64px;
-        color: white;
+        color: rgb(21, 57, 87);
     }
     
     .mgmt_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        color: white;
+        color: rgb(21, 57, 87);
         margin: 24px;
     }  
 }
@@ -132,28 +132,28 @@ body {
     .mgmt_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 48px;
-        color: white;
+        color: rgb(21, 57, 87);
     }
     
     .mgmt_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        color: white;
+        color: rgb(21, 57, 87);
         margin: 24px;
     }     
 }
 /* -------------------- SMALL PHONE ------------- */
 @media screen and (max-width: 575px) and (min-width: 319px){  
-    .mmgmt_headline {
+    .mgmt_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 36px;
-        color: white;
+        color: rgb(21, 57, 87);
     }
     
     .mgmt_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
-        color: white;
+        color: rgb(21, 57, 87);
         margin: 24px;
     }   
 }
