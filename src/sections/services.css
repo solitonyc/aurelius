@@ -53,6 +53,7 @@ body {
     font-size: 18px;
     color: rgb(21, 57, 87);
     margin: 24px;
+    max-width: 1200px;
 }
 
 /* -------------------- BOX STYLES ---------------------*/
@@ -101,13 +102,13 @@ body {
     .services_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 80px;
-        color: white;
+        color: rgb(21, 57, 87);
     }
     
     .services_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        color: white;
+        color: rgb(21, 57, 87);
         margin: 24px;
     }
 }
@@ -116,13 +117,13 @@ body {
     .services_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 64px;
-        color: white;
+        color: rgb(21, 57, 87);
     }
     
     .services_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        color: white;
+        color: rgb(21, 57, 87);
         margin: 24px;
     }  
 }
@@ -131,13 +132,13 @@ body {
     .services_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 48px;
-        color: white;
+        color: rgb(21, 57, 87);
     }
     
     .services_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        color: white;
+        color: rgb(21, 57, 87);
         margin: 24px;
     }     
 }
@@ -146,13 +147,13 @@ body {
     .services_headline {
         font-family: 'Abril Fatface', cursive;
         font-size: 36px;
-        color: white;
+        color: rgb(21, 57, 87);
     }
     
     .services_paragraph_01 {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
-        color: white;
+        color: rgb(21, 57, 87);
         margin: 24px;
     }   
 }
