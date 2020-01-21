@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './management.css';
 import mainBgImage from './images-sections/bg-img4.jpg';
-import philBoxImg01 from './images-sections/bg-img5.jpg';
-import philBoxImg02 from './images-sections/bg-img8.jpg';
+import philBoxImg01 from './images-sections/headshot1.jpg';
+import philBoxImg02 from './images-sections/headshot2.jpg';
 
 export default class Page4 extends Component {
     render() {
