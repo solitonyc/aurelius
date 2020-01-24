@@ -12,8 +12,8 @@ export default class Main extends Component {
                 <div className="main_page_section" id="main">
                 <div style={style} className='main_section_background'>
                     <div className="main_content_container">  
-                        <div className="main_headline">Welcome to Aurelius</div>
-                        <div className="main_tagline">The company tagline statement goes here</div>
+                        <div className="main_headline">Aurelius</div>
+                        {/* <div className="main_tagline">The company tagline statement goes here</div> */}
                         <div className="main_paragraph_01">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
